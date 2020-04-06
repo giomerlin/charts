@@ -36,6 +36,10 @@ metricsPrefix: ""
 ##
 nodeSelector: {}
 
+## Taints to tolerate on node assignment:
+## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+tolerations: {}
+
 podAnnotations: {}
 
 ## Resources for the sparkoperator deployment
